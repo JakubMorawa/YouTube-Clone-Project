@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar-brand img {
+    width: 110px;
+}
+
+.list-unstyled li {
+    padding-bottom: 12px;
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+
+input[type="search"] {
+    max-width: 1000px;
+}
+
+.nav-link {
+    margin-right: 10px;
+}
+
+.nav-item {
+    align-self: right;
+}
+
+.sidebar {
+    width: 230px;
+}
+
+.sidebar-btn {
+    background-color: #ffffff !important;
+    border: none !important;
+    display: inline-flex;
+    align-items: center;
+    text-align: left;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.sidebar-btn:hover {
+    background-color:#f2f2f2 !important;
+}
+
+.sidebar svg{
+    margin-right: 10px;
+}
+
+/* Video card styling */
+.video-card {
+    display: block; /* Make sure it fills the container */
+    background-color: #fff; /* default background */
+    border-radius: 8px;
+    overflow: hidden;
+    transition: background-color 0.3s ease; /* smooth hover effect */
+}
+
+.video-card:hover {
+    background-color: #f2f2f2 !important; /* darken card */
+}
+
+.video-thumbnail img {
+    width: 100%;
+    height: auto; /* change to fixed px if needed */
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.video-info {
+    padding: 6px 5px;
+}
+
+.video-title {
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.2rem;
+    color: #000;
+}
+
+.video-channel,
+.video-stats {
+    font-size: 0.8rem;
+    color: #606060;
+    margin: 2px 0 0 0;
+}
