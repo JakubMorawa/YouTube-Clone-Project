@@ -13,7 +13,7 @@
   </p>
 
   <p>
-    <a href="[https://jakubmorawa.github.io/YouTubeProjectBootstrap/](https://jakubmorawa.github.io/YouTube-Clone-Project/)">Live Website</a>
+    <a href="https://jakubmorawa.github.io/YouTube-Clone-Project/">Live Website</a>
   </p>
 
   <p>
