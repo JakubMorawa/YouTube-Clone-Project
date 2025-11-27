@@ -2,7 +2,7 @@ import requests
 import json
 from datetime import datetime, timezone
 
-API_KEY = ""
+API_KEY = "" #Add in your own API ley
 
 # ---------------------------------------------
 # 1. EDIT YOUR VIDEO URL LIST HERE
@@ -113,3 +113,4 @@ def main():
     print(" - youtubeData.json")
 
 main()
+
